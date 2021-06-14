@@ -1,18 +1,10 @@
 package myPackage;
 
 import javax.swing.*; //IMPORT NECESSARY PACKAGES
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import java.awt.*;
+import javax.swing.event.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import java.awt.Font;
 import javax.swing.SwingConstants;
-import javax.swing.JTextField;
-import javax.swing.JSeparator;
-import javax.swing.JPasswordField;
-import java.awt.Color;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 

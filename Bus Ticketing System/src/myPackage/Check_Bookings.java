@@ -1,19 +1,13 @@
 package myPackage;
 import javax.swing.*;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import java.awt.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.awt.event.ActionEvent;
-import java.awt.Font;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 public class Check_Bookings extends JFrame {

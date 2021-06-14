@@ -1,14 +1,9 @@
 package myPackage;
 
 import javax.swing.*; //IMPORT NECESSARY PACKAGES
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import java.awt.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import java.awt.Font;
-import javax.swing.JScrollPane;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,20 +1,10 @@
 package myPackage;
 
 import javax.swing.*; //IMPORT NECESSARY PACKAGES 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import java.awt.Font;
-import javax.swing.JRadioButton;
-import javax.swing.JSeparator;
-import javax.swing.JButton;
+import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
-import javax.swing.JComboBox;
-import javax.swing.DefaultComboBoxModel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedWriter;
@@ -23,7 +13,6 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.awt.Color;
 import javax.swing.border.LineBorder;
 
 public class Ticket_Booking extends JFrame {
@@ -186,7 +175,7 @@ public class Ticket_Booking extends JFrame {
 		comboBox_Month = new JComboBox();
 		comboBox_Month.setFont(new Font("Tahoma", Font.PLAIN, 24));
 		comboBox_Month.setModel(new DefaultComboBoxModel(new String[] { "---Month---", "January", "February", "March",
-				"April", "May", "June ", "July ", "August", "September", "October ", "Novermber", "December" }));
+				"April", "May", "June", "July", "August", "September", "October", "November", "December" }));
 		comboBox_Month.setBounds(193, 253, 152, 36);
 		contentPane.add(comboBox_Month);
 

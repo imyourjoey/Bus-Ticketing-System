@@ -1,20 +1,11 @@
 package myPackage;
 
 import javax.swing.*; //IMPORT NECESSARY PACKAGES
-
-import javax.swing.JFrame;
-import java.awt.EventQueue;
-import javax.swing.JPanel;
+import java.awt.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
-import java.awt.Font;
-import javax.swing.JSeparator;
-import java.awt.Color;
-import java.awt.*;
+
 
 public class MainScreen extends JFrame {
 
